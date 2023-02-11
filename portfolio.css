@@ -8,7 +8,7 @@ body{
     font-size: 17px;
 }
 #body1{
-    width: 1343.4px;
+    max-width: 1343.4px;
     height: 650px;
 }
 #screen1{
@@ -55,7 +55,15 @@ body{
     padding: 20px 0;
     border-radius: 18px;
 }
+#lk1{
+        padding: 20px 0;
+}
+#div1{
+    position: relative;
+}
 #lksub:hover{
+    position: absolute;
+    top: 0;
     color: black;
     padding: 25px 5px;
 }
@@ -77,7 +85,7 @@ body{
 
 #screen2{
     background-color: rgb(37, 37, 37);
-    width: inherit;
+    max-width: inherit;
     height: 480px;
     padding: 100px;
 }
@@ -85,11 +93,11 @@ body{
     height: 500px;
 }
 #s2d1{
-    border-width: 1px;
-    width: 440px;
+    border-max-width: 1px;
+    max-width: 440px;
 }
 #s2d2{
-    width: 562px;
+    max-width: 562px;
     position: absolute;
     left: 670px;
     top: 755px;
@@ -98,7 +106,7 @@ body{
     letter-spacing: 1px;
 }
 #s2d2 button{
-    width: 120px;
+    max-width: 120px;
     padding: 13px;
     border-radius: 40px;
     background-color: rgb(240, 63, 63);
@@ -114,11 +122,11 @@ body{
 #screen3{
     background-color: rgb(19, 17, 17);
     padding: 100px;
-    width: inherit;
+    max-width: inherit;
     height: 480px;
 }
 .s3{
-    width: 250px;
+    max-width: 250px;
     border-radius: 20px;
     display: inline-block;
     text-align: center;
@@ -135,7 +143,7 @@ body{
     padding-bottom: 25px;
 }
 .al{
-    width: 120px;
+    max-width: 120px;
     padding: 13px;
     border-radius: 40px;
     background-color: rgb(240, 63, 63);
@@ -152,7 +160,7 @@ body{
 
 #screen4{
     background-color: rgb(19, 17, 17);
-    width: inherit;
+    max-width: inherit;
     height: 680px;
 }
 #s4d1{
