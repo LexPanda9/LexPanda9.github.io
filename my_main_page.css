@@ -1,0 +1,86 @@
+body{
+    background-image: url("anon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#tb{
+    background-color: darkslategrey;
+    color: yellow;
+    border: none;
+    border-color: green;
+    margin: auto;
+}
+th{
+    color: rgba(251, 255, 0, 0.904);
+    background-color: rgb(44, 47, 48);
+}
+th, td{
+border: solid rgb(36, 35, 35);
+padding: 2px;
+width: 100px;
+height: 20px;
+}
+.sn, #ss{
+    width: 1px;
+}
+#tb, th, td{
+    border-collapse: collapse;
+    text-align: center;
+}
+.lk:link{
+color: blue;
+}
+.lk:visited{
+    color: purple;
+}
+.lk:hover{
+    color: yellow;
+}
+.lk:active{
+    color: gray;
+}
+
+/* Navigation Bar starts here */
+
+.navv{
+    display: inline-block;
+    /* padding: 15px 10px; */
+    border-style: groove;
+    border-color: rgba(0, 0, 100, 0.300);
+    
+    background-color: green;
+    text-align: center;
+}
+
+/* Navigation bar ends here */
+a.nlk{
+    display: block;
+    border-style: solid;
+    padding: 15px 10px;
+    border-color: green;
+    width: 120px;
+    /* height: 20px; */
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+*{
+    margin: 0;
+}
+.nlk:link{
+    color: brown;
+}
+.nlk:hover{
+    color: aqua;
+    background-color: lawngreen;
+    width: 125px;
+    height: 30px;
+}
+.nlk:active{
+    color: red;
+}
