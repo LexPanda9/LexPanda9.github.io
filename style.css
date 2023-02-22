@@ -1,0 +1,158 @@
+@keyframes anime {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+*{
+    margin: 0;
+}
+#devvv{
+    color: rgba(255, 255, 255, 0.466);
+    box-sizing: border-box;
+    width: 280px;
+    margin: 5px auto;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.705) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#flex-header{
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#flex-header span{
+    cursor:pointer;
+}
+#flex-header div{
+    width: 150px;
+    height: 60px;
+    color: rgba(182, 235, 245, 0.979);
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 5px;
+}
+#flex-header div a{
+    display: block;
+    text-decoration: none;
+    color: rgba(182, 235, 245, 0.979);
+    width: 100px;
+    font-size: 14px;
+}
+#flex-header div a:hover{
+    color: gold;
+}
+div.sub1 a{
+    background-color: rgba(247, 73, 73, 0.973);
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px gray;
+}
+div.sub1 a:hover{
+    background-color: rgba(247, 73, 73, 0.973);
+    color: black !important;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+#container1{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin-bottom: 200px;
+}
+@media (max-width:650px) {
+    #container1{
+        grid-template-columns: 100%;
+    }
+}
+.d1img{
+    max-width: 500px;
+    /* height: 500px; */
+    box-sizing: border-box;
+}
+.d1img img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 4px 4px black, -4px -4px yellow;
+}
+.d1img div{
+    margin-top: 30px;
+    color: green;
+    text-shadow: 4px 4px 10px black;
+}
+.d1img span{
+    color: white;
+}
+.d2{
+    margin: auto;
+}
+@media (max-width:650px) {
+    .d2{
+        margin-top: 50px;
+    }
+}
+.d2 p{
+    font-size: 35px;
+    color: green;
+}
+.d2 span{
+    font-size: 60px;
+    color: white;
+}
+#divb{
+    animation-name: anime;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 92px 0;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px yellow, -4px -4px 10px blue;
+    background-image: repeating-conic-gradient(green 10deg, blue 20deg, black 30deg, red 40deg, yellow 50deg);
+    margin-top: 30px;
+}
+#divb span{
+    font-size: 14px;
+}
+
+/* #container2{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+} */
+
+
+#carouselExampleCaptions{
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px black, -5px -5px 20px black;
+}
+.d-block{
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: 500px;
+    /* box-shadow: 5px 5px 20px yellow, -5px -5px 20px yellow; */
+}
+.carousel-caption h5,p{
+    color: gold;
+    font-size: 25px;
+}
