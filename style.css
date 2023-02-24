@@ -3,20 +3,18 @@
     to{transform: rotate(360deg)}
 }
 
-*{
-    margin: 0;
-}
+
 #devvv{
     color: rgba(255, 255, 255, 0.466);
     box-sizing: border-box;
     width: 280px;
-    margin: 5px auto;
+    margin: 50px auto;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.705) !important;
+    background-color: rgba(3, 3, 3, 0.795) !important;
     font-family: Arial, Helvetica, sans-serif;
 }
-#flex-header{
+/* #flex-header{
     display: flex;
     background-color: blue;
     flex-direction: row;
@@ -47,7 +45,7 @@ body{
 }
 #flex-header div a:hover{
     color: gold;
-}
+} */
 div.sub1 a{
     background-color: rgba(247, 73, 73, 0.973);
     padding: 5px 10px;
@@ -62,20 +60,21 @@ div.sub1 a:hover{
 }
 
 #container1{
-    margin: 50px 100px;
+    margin: 50px auto;
+    max-width: 1100px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     margin-bottom: 200px;
 }
-@media (max-width:650px) {
+@media (max-width:845px) {
     #container1{
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
+        margin: 0 auto;
     }
 }
-.d1img{
+/* .d1img{
     max-width: 500px;
-    /* height: 500px; */
     box-sizing: border-box;
 }
 .d1img img{
@@ -93,13 +92,31 @@ div.sub1 a:hover{
 }
 .d1img span{
     color: white;
+} */
+
+.card{
+    background-color: rgba(177, 173, 173, 0.521);
+    border-radius: 20px;
+    margin: auto;
 }
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-body h5{
+    color: #0d6efd;
+}
+.card-body .btn{
+    border-radius: 13px;
+}
+
 .d2{
     margin: auto;
 }
-@media (max-width:650px) {
+@media (max-width:845px) {
     .d2{
-        margin-top: 50px;
+        margin: 50px auto;
+        max-width: 280px;
     }
 }
 .d2 p{
@@ -132,12 +149,6 @@ div.sub1 a:hover{
     font-size: 14px;
 }
 
-/* #container2{
-    background-color: black;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-} */
 
 
 #carouselExampleCaptions{
@@ -146,13 +157,64 @@ div.sub1 a:hover{
     border-radius: 50px;
     box-shadow: 5px 5px 20px black, -5px -5px 20px black;
 }
+@media (max-width:850px) {
+    #carouselExampleCaptions{
+        margin-top: 50px;
+    }
+}
 .d-block{
     border-radius: 50px;
     box-sizing: border-box;
-    height: 500px;
-    /* box-shadow: 5px 5px 20px yellow, -5px -5px 20px yellow; */
+    /* height: 500px; */
 }
 .carousel-caption h5,p{
     color: gold;
     font-size: 25px;
+}
+
+
+#container2{
+    background-color: rgba(0, 255, 255, 0.418);
+    margin-top: 250px;
+}
+#c2div1{
+    max-width: 900px;
+    margin: 0 auto;
+}
+@media (max-width:850px) {
+    #c2div1 p{
+        font-size: 18px;
+    }
+}
+
+
+#screen3{
+    background-color: rgb(241, 154, 154);
+    margin-top: -16px;
+}
+#s3container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media (max-width:850px) {
+    #s3container{
+        grid-template-columns: auto;
+    }
+}
+.s3{
+    max-width: 450px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: rgb(36, 36, 36);
+    margin: 50px auto;
+}
+.s3 h6{
+    font-size: 45px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+}
+.s3 p{
+    font-size: 20px;
 }
