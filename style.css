@@ -109,6 +109,9 @@ div.sub1 a:hover{
 .card-body .btn{
     border-radius: 13px;
 }
+.card-text{
+    color: yellow;
+}
 
 .d2{
     margin: auto;
@@ -181,6 +184,9 @@ div.sub1 a:hover{
     max-width: 900px;
     margin: 0 auto;
 }
+#c2div1 p{
+    color: rgba(3, 3, 3, 0.795);
+}
 @media (max-width:850px) {
     #c2div1 p{
         font-size: 18px;
@@ -217,4 +223,9 @@ div.sub1 a:hover{
 }
 .s3 p{
     font-size: 20px;
+}
+.txtdec{
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: yellow;
 }

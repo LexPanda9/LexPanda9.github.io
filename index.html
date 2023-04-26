@@ -6,18 +6,36 @@
     <title>LexPanda| portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="main.js"></script>
-    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css.map"> -->
+    <link rel="stylesheet" href="css/bootstrap.css.map">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <div id="fleheader"> <!--Header starts here-->
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">LexPanda</a>
+          <div class="col-lg-4 col-xl-5">
+            <div class="header_top_social_widgets text-center text-md-end">
+              <ul class="m0">
+                <li class="list-inline-item"><a href="https://www.facebook.com/alexander.ozougwu.1"><span class="fab fa-facebook-f"></span></a></li>
+                <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                <li class="list-inline-item"><a href="#"><span class="fab fa-whatsapp"></span></a></li>
+                <li class="list-inline-item"><a href="#" data-bs-toggle="modal" data-bs-target="#logInModal">Login</a></li>
+                <li class="list-inline-item"><a href="#" data-bs-toggle="modal" data-bs-target="#logInModal">Register</a></li>
+              </ul>
+            </div>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -73,7 +91,7 @@
         <img src="pubg.jpg" class="card-img-top img-fluid" alt="my pic">
         <div class="card-body">
           <h5 class="card-title">My Pic</h5>
-          <p class="card-text">I love creating beatiful unique things,</span> your satisfaction is my happiness...</p>
+          <p class="card-text">I love creating beatiful unique things, your satisfaction is my happiness...</p>
           <a href="#aboout" class="btn btn-primary">more about me</a>
         </div>
       </div>
@@ -148,19 +166,23 @@
         <div id="c2div1">
           <h1 style="font-size:70px" id="aboout">About Me</h1>
           <h5 style="font-size:25px; padding: 30px 0">Developer & Designer</h5>
-          <p> I'm am a fullstack web developer. i can provide clean code and pixel perfect design. 
+          <p> I'm am a front end web developer. i can provide clean code and pixel perfect design. 
             i also make the Website more and more interactive with web animations. i can cordinate
-            your website and make easy for your viewers. I make my codes more understandable to veiwers 
+            your website and make it easy for your viewers. I make my codes more understandable to veiwers 
             and other developers on web and on views as well. my aim is your satisfaction. I Am a student 
             of techo-craft teaching ICT center Nigeria. Bring your projects, works, informations and 
             ideas to me for a better creations </p>
+            <strong style="color:rgba(3, 3, 3, 0.795)">for more enquiries</strong>
+            <p><span style="color:darkgreen; font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+             'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Contact me on WhatsApp @</span>
+              <b style="color:yellow">+</b><b class="txtdec">2347030950700</b></p>
             <!-- <button>Let's Talk</button> -->
-        </div>
+        </div><br>
     </div>
 
 
     <div id="screen3"><br><br><br><br><br><br>
-        <h1 style="font-size:80px; max-width: 500px; margin: auto" id="services">Our Services</h1>
+        <h1 style="font-size:80px; max-width: 500px; margin: auto" id="services">My Services</h1>
       <div id="s3container">
         <div class="s3">
             <h6>Web Development</h6>
@@ -178,9 +200,92 @@
 
 
 
+    <div class="preloader"></div>
+  <!-- Sidebar Panel Start -->
+  <div class="listing_sidebar">
+    <div class="siderbar_left_home pt20">
+      <a class="sidebar_switch sidebar_close_btn float-end" href="#">X</a>
+      <div class="footer_contact_widget mt100">
+        <h3 class="title">Quick contact info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur.</p>
+      </div>
+      <div class="footer_contact_widget">
+        <h5 class="title">CONTACT</h5>
+        <div class="footer_phone">+2347030950700</div>
+        <p>ozougwu971@gmail.com</p>
+      </div>
+      <div class="footer_about_widget">
+        <h5 class="title">OFFICE</h5>
+        <p>Nigeria -<br>Enugu State<br>...</p>
+      </div>
+      <div class="footer_contact_widget">
+        <h5 class="title">OPENING HOURS</h5>
+        <p>Monday – Friday: 07:00AM – 10:00PM<br>Saturday: 08:00AM – 10:00PM<br>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+  <!-- Sidebar Panel End -->
+  
+  <!-- header top -->
+  <div class="header_top dn-992">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-xl-7">
+          <div class="header_top_contact_opening_widget text-center text-md-start">
+            <ul class="mb0">
+              <li class="list-inline-item"><a href="#"><span class="flaticon-phone-call"></span>+2347030950700</a></li>
+              <li class="list-inline-item"><a href="#"><span class="flaticon-map"></span>Udi(l.g.a), Enugu State, Nigeria</a></li>
+              <li class="list-inline-item"><a href="#"><span class="flaticon-clock"></span>Sun - Sat(everyday) 8:00am - 10:00pm</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xl-5">
+          <div class="header_top_social_widgets text-center text-md-end">
+            <ul class="m0">
+              <li class="list-inline-item"><a href="https://www.facebook.com/alexander.ozougwu.1"><span class="fab fa-facebook-f"></span></a></li>
+              <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li class="list-inline-item"><a href="#"><span class="fab fa-whatsapp"></span></a></li>
+              <li class="list-inline-item"><a href="#" data-bs-toggle="modal" data-bs-target="#logInModal">Login</a></li>
+              <li class="list-inline-item"><a href="#" data-bs-toggle="modal" data-bs-target="#logInModal">Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div><p style="text-align:center">Copyright LexPanda 2023</p></div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Wrapper End --> 
+<script src="js/jquery-3.6.0.js"></script> 
+<script src="js/jquery-migrate-3.0.0.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.mmenu.all.js"></script> 
+<script src="js/ace-responsive-menu.js"></script> 
+<script src="js/isotop.js"></script> 
+<script src="js/snackbar.min.js"></script> 
+<script src="js/simplebar.js"></script> 
+<script src="js/parallax.js"></script> 
+<script src="js/scrollto.js"></script> 
+<script src="js/jquery-scrolltofixed-min.js"></script> 
+<script src="js/jquery.counterup.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/progressbar.js"></script> 
+<script src="js/slider.js"></script>
+<script src="js/timepicker.js"></script> 
+<script src="js/wow.min.js"></script> 
+<!-- Custom script for all pages --> 
+<script src="js/script.js"></script>
 </body>
 </html>
