@@ -230,5 +230,5 @@ div.sub1 a:hover{
     color: yellow;
 }
 .stacks{
-    color: yellow;
+    color: yellow !important;
 }
